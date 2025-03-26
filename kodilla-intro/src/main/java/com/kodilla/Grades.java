@@ -1,5 +1,7 @@
 package com.kodilla;
 
+import java.util.Random;
+
 public class Grades {
 private int[] grades;
 private int size;
@@ -31,6 +33,3 @@ sum = sum + this.grades[i];
 return (double) sum / this.size;
     }
     }
-
-
-
