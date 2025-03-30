@@ -27,7 +27,7 @@ package com.kodilla;
 
            User[] users = {tomek, maciej, henryk, dominik, grzegorz, kamil};
            int sum = 0;
-           for (int i = 0; i < users.length; i++) {
+           for ( int i = 0; i < users.length; i++ ) {
                sum += users[i].getAge();
            }
 
