@@ -1,4 +1,4 @@
-package com.kodilla;
+package com;
 
 public class LeapYear {
     public static boolean isLeapYear(int year) {

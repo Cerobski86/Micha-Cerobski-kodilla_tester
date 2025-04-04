@@ -1,4 +1,4 @@
-package com.kodilla;
+package com;
 
 public class AdvCalculator {
     public double calculate() {

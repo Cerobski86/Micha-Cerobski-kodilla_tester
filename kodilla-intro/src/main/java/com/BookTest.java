@@ -1,4 +1,4 @@
-package com.kodilla;
+package com;
 
 public class BookTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.kodilla;
+package com;
 
 public class GradesTest {
     public static void main(String[] args) {

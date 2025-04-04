@@ -1,4 +1,4 @@
-package com.kodilla;
+package com;
 
 public class AdvCalcApplication {
     public static void main(String[] args) {

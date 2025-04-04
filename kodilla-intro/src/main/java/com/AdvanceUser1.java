@@ -1,4 +1,4 @@
-package com.kodilla;
+package com;
 
 public class AdvanceUser1 extends User1 {
     private String profession;

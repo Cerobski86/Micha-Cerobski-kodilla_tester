@@ -1,5 +1,5 @@
 
-package com.kodilla;
+package com;
 
 public class User1 {
     private String name;

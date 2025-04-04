@@ -1,4 +1,4 @@
-package com.kodilla;
+package com;
 
 public class Calculator {
     static final double PI = 3.1415927;

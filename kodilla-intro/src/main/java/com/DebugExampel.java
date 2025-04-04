@@ -1,4 +1,4 @@
-package com.kodilla;
+package com;
 public class DebugExampel {
     public static void main(String[] args) {
         int firstNumber = 23;
