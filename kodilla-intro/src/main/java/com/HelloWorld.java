@@ -6,6 +6,5 @@ public class HelloWorld {
         System.out.println("Michal");
         System.out.println("39");
         System.out.println("C");
-
     }
 }

@@ -1,4 +1,5 @@
 package com;
+
 public class Notebook {
     int weight;
     int price;
@@ -40,4 +41,3 @@ public class Notebook {
         }
     }
 }
-

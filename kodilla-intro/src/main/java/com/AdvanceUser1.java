@@ -7,6 +7,7 @@ public class AdvanceUser1 extends User1 {
         super(name, age, height);
         this.profession = profession;
     }
+
     public String getProfession() {
         return profession;
     }

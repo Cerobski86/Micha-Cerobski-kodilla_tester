@@ -1,4 +1,5 @@
 package com;
+
 public class Loops {
     public static void main(String[] args) {
         String[] name = new String[]{"Zygfryd", "Gwidon", "Florentyna"};
@@ -21,5 +22,3 @@ public class Loops {
         return sum;
     }
 }
-
-

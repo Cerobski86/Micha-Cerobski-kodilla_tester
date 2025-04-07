@@ -5,7 +5,7 @@ public class FirstClass {
         Notebook notebook = new Notebook(600, 1000, 2020);
         notebookParameters(notebook, "  ");
 
-        Notebook heavyNotebook = new Notebook(2000,  1500, 2023);
+        Notebook heavyNotebook = new Notebook(2000, 1500, 2023);
         notebookParameters(heavyNotebook, " ");
 
         Notebook oldNotebook = new Notebook(1200, 500, 2018);

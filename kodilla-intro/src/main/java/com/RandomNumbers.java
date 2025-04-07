@@ -1,6 +1,7 @@
 package com;
 
 import java.util.Random;
+
 public class RandomNumbers {
     private int[] numbers = new int[500];
     private int count = 0;

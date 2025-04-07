@@ -2,9 +2,8 @@ package com.kodilla.abstracts;
 
 public class Dog extends Animal {
 
-
     public Dog() {
-        super( 4);
+        super(4);
     }
 
     @Override
@@ -12,4 +11,3 @@ public class Dog extends Animal {
         System.out.println("Hau hau hau hau");
     }
 }
-

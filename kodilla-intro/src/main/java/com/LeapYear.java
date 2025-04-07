@@ -16,4 +16,3 @@ public class LeapYear {
         System.out.println(testYear + " jest rokiem przestępnym? " + isLeapYear(testYear));
     }
 }
-

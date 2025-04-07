@@ -8,10 +8,8 @@ public class SimpleArray {
         name[4] = "Hanna";
 
         String indeks = name[3];
-        System.out.println("do tablicy : "  + indeks);
-    int numberOfElements = name.length;
-    System.out.println("Moja tablica zawiera: " + numberOfElements + " elementow");
+        System.out.println("do tablicy : " + indeks);
+        int numberOfElements = name.length;
+        System.out.println("Moja tablica zawiera: " + numberOfElements + " elementow");
     }
-    }
-
-
+}
