@@ -21,13 +21,13 @@ public class Application {
             System.out.println("Results: " + calculator.subtract(a, b));
             System.out.println("The subtract method works correctly for numbers " + a + " and " + b);
         } else {
-            System.out.println("The substract method does not work correctly for numbers " + a + " and " + b);
+            System.out.println("The subtract method does not work correctly for numbers " + a + " and " + b);
         }
 
-        int squaredResult = calculator.squared(a);
-        boolean correctSquared = ResultChecker.assertEquals(25, squaredResult);
+        int squareResult = calculator.square(a);
+        boolean correctSquared = ResultChecker.assertEquals(25, squareResult);
         if (correctSquared) {
-            System.out.println("Results: " + calculator.squared(a));
+            System.out.println("Results: " + calculator.square(a));
             System.out.println("The squared method works correctly for number " + a);
         } else {
             System.out.println("The squared method does not work correctly for number " + a);
