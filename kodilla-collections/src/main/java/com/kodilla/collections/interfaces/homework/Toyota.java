@@ -6,14 +6,17 @@ public class Toyota implements Car {
     public Toyota(int speed) {
         this.speed = speed;
     }
+
     @Override
     public void increaseSpeed() {
         speed = speed + 20;
     }
+
     @Override
     public void decreaseSpeed() {
         speed = speed - 10;
     }
+
     @Override
     public int getSpeed() {
         return speed;
