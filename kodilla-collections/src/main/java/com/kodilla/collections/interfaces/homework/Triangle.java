@@ -1,4 +1,4 @@
-package com.kodilla.collections.interfaces;
+package com.kodilla.collections.interfaces.homework;
 
 public class Triangle implements Shape {
     private double width;

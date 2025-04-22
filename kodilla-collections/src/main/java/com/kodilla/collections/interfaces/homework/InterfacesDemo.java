@@ -1,7 +1,4 @@
-package com.kodilla.collections.interfaces;
-
-import com.kodilla.collections.interfaces.Circle;
-import com.kodilla.collections.interfaces.Square;
+package com.kodilla.collections.interfaces.homework;
 
 public class InterfacesDemo {
     public static void main(String[] args) {
