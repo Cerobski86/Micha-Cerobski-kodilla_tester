@@ -12,13 +12,13 @@ public class Application {
         students.add(new Student("Zofia Lewandowska", new Teacher("Maria Pawlak")));
         students.add(new Student("Tomasz Zieliński", null));
 
-    for (Student student : students) {
-        Optional<Teacher> optionalTeacher = Optional.ofNullable(student.getTeacher());
+        for (Student student : students) {
+            Optional<Teacher> optionalTeacher = Optional.ofNullable(student.getTeacher());
 
-        String teacherName = optionalTeacher
-                .map(Teacher::getName)
-                .orElse("<underfined>");
-        System.out.println(("Student name: " + student.getName() + " -  Teacher name: "  + teacherName));
-    }
+            String teacherName = optionalTeacher
+                    .map(Teacher::getName)
+                    .orElse("<underfined>");
+            System.out.println(("Student name: " + student.getName() + " -  Teacher name: " + teacherName));
+        }
     }
 }

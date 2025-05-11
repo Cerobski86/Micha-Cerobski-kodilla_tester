@@ -51,10 +51,10 @@ class ApplicationTest {
             results.add(line);
         }
 
-            assertEquals(4, results.size());
-            assertTrue(results.contains("Student name: Jan Kowalski - Teacher name: Tomasz Nowak"));
-            assertTrue(results.contains("Student name: Anna Nowak - Teacher name: <undefined>"));
-            assertTrue(results.contains("Student name: Piotr Zieliński - Teacher name: Marek Malinowski"));
-            assertTrue(results.contains("Student name: Maria Wiśniewska - Teacher name: <undefined>"));
-        }
+        assertEquals(4, results.size());
+        assertTrue(results.contains("Student name: Jan Kowalski - Teacher name: Tomasz Nowak"));
+        assertTrue(results.contains("Student name: Anna Nowak - Teacher name: <undefined>"));
+        assertTrue(results.contains("Student name: Piotr Zieliński - Teacher name: Marek Malinowski"));
+        assertTrue(results.contains("Student name: Maria Wiśniewska - Teacher name: <undefined>"));
     }
+}
